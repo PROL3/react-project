@@ -174,7 +174,7 @@
     "name": "Double IPA",
     "price": "8.99",
     "description": "A double dose of hops and alcohol, not for the faint of heart.",
-    "image": "./images/pic26.jpeg",
+    "image": "./images/pic26.jpg",
     "isStrong": true,
     "type": "beer",
     "id": 20
