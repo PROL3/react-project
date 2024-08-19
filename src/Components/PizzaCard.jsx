@@ -14,7 +14,7 @@ const PizzaCard = ({ item }) => {
 
   return (
     <div className="max-w-sm rounded overflow-hidden shadow-lg mx-auto">
-      <img className="w-full h-48 object-cover" src={item.image} alt="item image" />
+      <img className="w-full h-48 object-fill" src={item.image} alt="item image" />
       <div className="px-6 py-4">
         <p className="text-gray-700 text-base">
           <span className="font-bold text-blue-500">Name:</span> {item.name}

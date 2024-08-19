@@ -38,7 +38,7 @@
   {
     "name": "Veggie Pizza",
     "description": "Pizza with tomato sauce, mozzarella cheese, bell peppers, green olives, and artichokes.",
-    "image": "./images/pic5.png",
+    "image": "./images/pic5.jpeg",
     "beer_pairing": "Pale Ale - Balanced and versatile, matches well with a variety of vegetable toppings.",
     "price": 13.49,
     "type": "pizza",
@@ -93,7 +93,7 @@
     "name": "Pale Ale",
     "price": "5.99",
     "description": "A refreshing pale ale with a crisp finish.",
-    "image": "./images/pic16.jpg",
+    "image": "https://example.com/path-to-beer-image1.jpg",
     "isStrong": false,
     "type": "beer",
     "id": 11
@@ -102,7 +102,7 @@
     "name": "IPA",
     "price": "6.99",
     "description": "A hoppy and flavorful India Pale Ale. Strong.",
-    "image": "./images/pic17.jpg",
+    "image": "https://example.com/path-to-beer-image2.jpg",
     "isStrong": true,
     "type": "beer",
     "id": 12
@@ -111,7 +111,7 @@
     "name": "Stout",
     "price": "7.99",
     "description": "A rich and creamy stout with notes of coffee.",
-    "image":"./images/pic18.jpg",
+    "image": "https://example.com/path-to-beer-image3.jpg",
     "isStrong": false,
     "type": "beer",
     "id": 13
@@ -120,7 +120,7 @@
     "name": "Wheat Beer",
     "price": "5.49",
     "description": "A smooth wheat beer with hints of citrus.",
-    "image": "./images/pic19.jpg",
+    "image": "https://example.com/path-to-beer-image4.jpg",
     "isStrong": false,
     "type": "beer",
     "id": 14
@@ -129,7 +129,7 @@
     "name": "Porter",
     "price": "6.49",
     "description": "A dark and flavorful porter with a chocolate finish.",
-    "image": "./images/pic20.jpg",
+    "image": "https://example.com/path-to-beer-image5.jpg",
     "isStrong": true,
     "type": "beer",
     "id": 15
@@ -138,7 +138,7 @@
     "name": "Pilsner",
     "price": "4.99",
     "description": "A crisp and clean pilsner, perfect for hot days.",
-    "image": "./images/pic21.jpg",
+    "image": "https://example.com/path-to-beer-image6.jpg",
     "isStrong": false,
     "type": "beer",
     "id": 16
@@ -147,7 +147,7 @@
     "name": "Amber Ale",
     "price": "5.99",
     "description": "A well-balanced amber ale with a hint of caramel.",
-    "image": "https://example.com/path-to-beer-image7.jpg",
+    "image": "./images/pic23.jpg",
     "isStrong": false,
     "type": "beer",
     "id": 17
@@ -156,7 +156,7 @@
     "name": "Brown Ale",
     "price": "5.79",
     "description": "A smooth and nutty brown ale with a mild finish.",
-    "image": "https://example.com/path-to-beer-image8.jpg",
+    "image": "./images/pic24.jpg",
     "isStrong": false,
     "type": "beer",
     "id": 18
@@ -165,7 +165,7 @@
     "name": "Saison",
     "price": "7.49",
     "description": "A fruity and spicy saison with a dry finish.",
-    "image": "https://example.com/path-to-beer-image9.jpg",
+    "image": "./images/pic25.jpg",
     "isStrong": false,
     "type": "beer",
     "id": 19
@@ -174,7 +174,7 @@
     "name": "Double IPA",
     "price": "8.99",
     "description": "A double dose of hops and alcohol, not for the faint of heart.",
-    "image": "https://example.com/path-to-beer-image10.jpg",
+    "image": "./images/pic26.jpeg",
     "isStrong": true,
     "type": "beer",
     "id": 20
@@ -183,7 +183,7 @@
     "name": "Spaghetti Carbonara",
     "price": "12.99",
     "description": "Classic Italian pasta with a creamy sauce and pancetta.",
-    "image": "https://example.com/path-to-pasta-image1.jpg",
+    "image": "./images/pic10.jpeg",
     "type": "pasta",
     "id": 21
   },
@@ -191,7 +191,7 @@
     "name": "Penne Arrabbiata",
     "price": "11.49",
     "description": "Penne pasta with a spicy tomato sauce.",
-    "image": "https://example.com/path-to-pasta-image2.jpg",
+    "image": "./images/pic11.jpeg",
     "type": "pasta",
     "id": 22
   },
@@ -199,7 +199,7 @@
     "name": "Fettuccine Alfredo",
     "price": "13.99",
     "description": "Fettuccine noodles with a rich and creamy Alfredo sauce.",
-    "image": "https://example.com/path-to-pasta-image3.jpg",
+    "image": "./images/pic12.jpeg",
     "type": "pasta",
     "id": 23
   },
@@ -207,7 +207,7 @@
     "name": "Lasagna Bolognese",
     "price": "14.99",
     "description": "Layers of pasta with a savory meat sauce and cheese.",
-    "image": "https://example.com/path-to-pasta-image4.jpg",
+    "image": "./images/pic13.jpeg",
     "type": "pasta",
     "id": 24
   },
@@ -215,7 +215,7 @@
     "name": "Ravioli",
     "price": "12.49",
     "description": "Stuffed pasta pockets with a choice of cheese or meat filling.",
-    "image": "https://example.com/path-to-pasta-image5.jpg",
+    "image": "./images/pic14.jpeg",
     "type": "pasta",
     "id": 25
   },
@@ -223,7 +223,7 @@
     "name": "Spaghetti Bolognese",
     "price": "13.99",
     "description": "Classic spaghetti with a rich meat sauce.",
-    "image": "https://example.com/path-to-pasta-image6.jpg",
+    "image":"./images/pic15.jpeg",
     "type": "pasta",
     "id": 26
   }
