@@ -93,7 +93,7 @@
     "name": "Pale Ale",
     "price": "5.99",
     "description": "A refreshing pale ale with a crisp finish.",
-    "image": "https://example.com/path-to-beer-image1.jpg",
+    "image": "./images/pic16.jpg",
     "isStrong": false,
     "type": "beer",
     "id": 11
@@ -102,7 +102,7 @@
     "name": "IPA",
     "price": "6.99",
     "description": "A hoppy and flavorful India Pale Ale. Strong.",
-    "image": "https://example.com/path-to-beer-image2.jpg",
+    "image": "./images/pic17.jpg",
     "isStrong": true,
     "type": "beer",
     "id": 12
@@ -111,7 +111,7 @@
     "name": "Stout",
     "price": "7.99",
     "description": "A rich and creamy stout with notes of coffee.",
-    "image": "https://example.com/path-to-beer-image3.jpg",
+    "image":"./images/pic18.jpg",
     "isStrong": false,
     "type": "beer",
     "id": 13
@@ -120,7 +120,7 @@
     "name": "Wheat Beer",
     "price": "5.49",
     "description": "A smooth wheat beer with hints of citrus.",
-    "image": "https://example.com/path-to-beer-image4.jpg",
+    "image": "./images/pic19.jpg",
     "isStrong": false,
     "type": "beer",
     "id": 14
@@ -129,7 +129,7 @@
     "name": "Porter",
     "price": "6.49",
     "description": "A dark and flavorful porter with a chocolate finish.",
-    "image": "https://example.com/path-to-beer-image5.jpg",
+    "image": "./images/pic20.jpg",
     "isStrong": true,
     "type": "beer",
     "id": 15
@@ -138,7 +138,7 @@
     "name": "Pilsner",
     "price": "4.99",
     "description": "A crisp and clean pilsner, perfect for hot days.",
-    "image": "https://example.com/path-to-beer-image6.jpg",
+    "image": "./images/pic21.jpg",
     "isStrong": false,
     "type": "beer",
     "id": 16
