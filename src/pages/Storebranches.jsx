@@ -66,7 +66,7 @@ const StoreBranches = () => {
                   key={branch.id}
                   position={[branch.lat, branch.lng]}
                   icon={L.icon({
-                    iconUrl: '/images/arrow_marker.png', // Use the path from the public directory
+                    iconUrl: '../images/markerImage.png', // Use the path from the public directory
                     iconSize: [30, 50],
                     iconAnchor: [15, 50],
                   })}
