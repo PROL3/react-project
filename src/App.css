@@ -1,0 +1,139 @@
+/* כללי */
+html, body {
+  overflow-x: hidden; /* מונע גלילה אופקית */
+  margin: 0; /* מסיר רווחים מסביב */
+  padding: 0; /* מסיר רווחים פנימיים */
+  height: 100%; /* מבטיח שהגובה של הדף יהיה 100% */
+}
+
+/* Container for centering the card */
+.card-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh; /* מבטיח שהכרטיס יהיה ממורכז במרכז הדף אנכית */
+  padding: 2rem;
+  margin: 0 auto;
+}
+
+/* 3D card wrapper */
+.card-wrapper {
+  position: relative;
+  width: 100%;
+  max-width: 800px; /* Adjust as needed */
+  padding: 2rem;
+  border-radius: 1.75rem;
+  box-shadow: 0 0 15px 15px rgba(0, 0, 0, 0.2);
+  perspective: 1000px;
+}
+
+/* Background image styling */
+.card-background {
+  position: absolute;
+  inset: 0;
+  background-size: cover;
+  background-position: center;
+  border-radius: 1.75rem;
+  filter: brightness(0.3);
+  z-index: 0;
+}
+
+/* Card content styling */
+.card-content {
+  position: relative;
+  padding: 2rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  color: #d1d5db;
+  z-index: 1;
+ }
+
+ 
+
+/* Heading and text styles */
+.card-title {
+  font-size: 2.25rem;
+  font-weight: 800;
+  color: #ffffff;
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.card-subtitle {
+  font-size: 1.875rem;
+  font-weight: 600;
+  color: #e5e7eb;
+  margin-bottom: 1.5rem;
+}
+
+.card-section-title {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #e5e7eb;
+  margin-bottom: 1rem;
+}
+
+.card-text {
+  color: #d1d5db;
+  margin-bottom: 2rem;
+}
+
+.card-footer {
+  font-size: 1.125rem;
+  text-align: center;
+  color: #d1d5db;
+}
+
+/* Navigation link styles */
+.nav-link {
+  position: relative;
+  text-decoration: none; /* no-underline */
+  font-weight: bold; /* font-bold */
+  color: #d1d5db; 
+}
+
+.nav-footer {
+  text-decoration: none; /* no-underline */
+  font-weight: bold; /* font-bold */
+  color: #ffffff; /* default color */
+  transition: color 0.3s; /* duration-300 */
+}
+
+.nav-footer:hover {
+  color: #f87171; /* hover color */
+}
+
+.nav-link::before {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 0.125rem;
+  background-color: #c08a1deb; 
+  transform: scaleX(0);
+  transform-origin: bottom right;
+  transition: transform 0.3s; 
+}
+
+.nav-link:hover::before {
+  transform-origin: bottom left;
+  transform: scaleX(1);
+}
+
+.store-name {
+  font-family: Georgia, serif;
+  font-size: 32px;
+  letter-spacing: -0.6px;
+  word-spacing: 1.2px;
+  color: #c08a1deb;
+  font-weight: 700;
+  text-decoration: none solid rgb(68, 68, 68);
+  font-style: normal;
+  font-variant: small-caps;
+  text-shadow: 2px 2px 2px #CE5937;
+}
+
+.active {
+  color: #f87171 !important;
+}

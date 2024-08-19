@@ -1,0 +1,230 @@
+[
+  {
+    "name": "Pesto Pizza",
+    "description": "Pizza with pesto sauce, mozzarella, cherry tomatoes, and arugula.",
+    "image": "./images/pic9.png",
+    "beer_pairing": "Kölsch - Light and crisp, complements the fresh and herbal flavors of the pesto.",
+    "price": 13.99,
+    "type": "pizza",
+    "id": 1
+  },
+  {
+    "name": "Mushroom & Onion Pizza",
+    "description": "Pizza with tomato sauce, mozzarella cheese, fresh mushrooms, and caramelized onions.",
+    "image": "./images/pic2.png",
+    "beer_pairing": "Amber Ale - Rich and malty, pairs well with the earthy flavors of mushrooms.",
+    "price": 14.99,
+    "type": "pizza",
+    "id": 2
+  },
+  {
+    "name": "Mediterranean Pizza",
+    "description": "Pizza with tomato sauce, feta cheese, black olives, cherry tomatoes, and fresh spinach.",
+    "image": "./images/pic3.png",
+    "beer_pairing": "Wheat Beer - Light and refreshing, perfect with Mediterranean toppings.",
+    "price": 13.99,
+    "type": "pizza",
+    "id": 3
+  },
+  {
+    "name": "Vegetarian Pepperoni Pizza",
+    "description": "Pizza with tomato sauce, mozzarella cheese, and vegetarian pepperoni.",
+    "image": "./images/pic4.png",
+    "beer_pairing": "IPA - Hoppy and bold, complements the spiciness of the vegetarian pepperoni.",
+    "price": 15.99,
+    "type": "pizza",
+    "id": 4
+  },
+  {
+    "name": "Veggie Pizza",
+    "description": "Pizza with tomato sauce, mozzarella cheese, bell peppers, green olives, and artichokes.",
+    "image": "./images/pic5.png",
+    "beer_pairing": "Pale Ale - Balanced and versatile, matches well with a variety of vegetable toppings.",
+    "price": 13.49,
+    "type": "pizza",
+    "id": 5
+  },
+  {
+    "name": "Four Cheese Pizza",
+    "description": "Pizza with tomato sauce, mozzarella, parmesan, ricotta, and gorgonzola cheeses.",
+    "image": "./images/pic6.png",
+    "beer_pairing": "Blonde Ale - Smooth and slightly sweet, pairs well with the rich cheese flavors.",
+    "price": 16.99,
+    "type": "pizza",
+    "id": 6
+  },
+  {
+    "name": "Spinach & Feta Pizza",
+    "description": "Pizza with tomato sauce, mozzarella, feta cheese, and fresh spinach.",
+    "image": "./images/pic7.png",
+    "beer_pairing": "Saison - A farmhouse ale that complements the tanginess of the feta.",
+    "price": 14.49,
+    "type": "pizza",
+    "id": 7
+  },
+  {
+    "name": "BBQ Chicken Pizza (Vegetarian)",
+    "description": "Pizza with BBQ sauce, mozzarella, vegetarian chicken strips, and red onions.",
+    "image": "./images/pic8.png",
+    "beer_pairing": "Brown Ale - Nutty and slightly sweet, pairs well with the smoky BBQ sauce.",
+    "price": 17.49,
+    "type": "pizza",
+    "id": 8
+  },
+  {
+    "name": "Bianca Pizza",
+    "description": "White pizza with mozzarella, ricotta, garlic, and fresh herbs.",
+    "image": "./images/pic9.png",
+    "beer_pairing": "Sour Ale - Tart and refreshing, balances the creamy cheese.",
+    "price": 11.99,
+    "type": "pizza",
+    "id": 9
+  },
+  {
+    "name": "Margherita Pizza",
+    "description": "Classic pizza with tomato sauce, mozzarella cheese, and fresh basil.",
+    "image": "./images/pic1.png",
+    "beer_pairing": "Pilsner - A light and crisp beer that complements the simple flavors.",
+    "price": 20.99,
+    "type": "pizza",
+    "id": 10
+  },
+  {
+    "name": "Pale Ale",
+    "price": "5.99",
+    "description": "A refreshing pale ale with a crisp finish.",
+    "image": "https://example.com/path-to-beer-image1.jpg",
+    "isStrong": false,
+    "type": "beer",
+    "id": 11
+  },
+  {
+    "name": "IPA",
+    "price": "6.99",
+    "description": "A hoppy and flavorful India Pale Ale. Strong.",
+    "image": "https://example.com/path-to-beer-image2.jpg",
+    "isStrong": true,
+    "type": "beer",
+    "id": 12
+  },
+  {
+    "name": "Stout",
+    "price": "7.99",
+    "description": "A rich and creamy stout with notes of coffee.",
+    "image": "https://example.com/path-to-beer-image3.jpg",
+    "isStrong": false,
+    "type": "beer",
+    "id": 13
+  },
+  {
+    "name": "Wheat Beer",
+    "price": "5.49",
+    "description": "A smooth wheat beer with hints of citrus.",
+    "image": "https://example.com/path-to-beer-image4.jpg",
+    "isStrong": false,
+    "type": "beer",
+    "id": 14
+  },
+  {
+    "name": "Porter",
+    "price": "6.49",
+    "description": "A dark and flavorful porter with a chocolate finish.",
+    "image": "https://example.com/path-to-beer-image5.jpg",
+    "isStrong": true,
+    "type": "beer",
+    "id": 15
+  },
+  {
+    "name": "Pilsner",
+    "price": "4.99",
+    "description": "A crisp and clean pilsner, perfect for hot days.",
+    "image": "https://example.com/path-to-beer-image6.jpg",
+    "isStrong": false,
+    "type": "beer",
+    "id": 16
+  },
+  {
+    "name": "Amber Ale",
+    "price": "5.99",
+    "description": "A well-balanced amber ale with a hint of caramel.",
+    "image": "https://example.com/path-to-beer-image7.jpg",
+    "isStrong": false,
+    "type": "beer",
+    "id": 17
+  },
+  {
+    "name": "Brown Ale",
+    "price": "5.79",
+    "description": "A smooth and nutty brown ale with a mild finish.",
+    "image": "https://example.com/path-to-beer-image8.jpg",
+    "isStrong": false,
+    "type": "beer",
+    "id": 18
+  },
+  {
+    "name": "Saison",
+    "price": "7.49",
+    "description": "A fruity and spicy saison with a dry finish.",
+    "image": "https://example.com/path-to-beer-image9.jpg",
+    "isStrong": false,
+    "type": "beer",
+    "id": 19
+  },
+  {
+    "name": "Double IPA",
+    "price": "8.99",
+    "description": "A double dose of hops and alcohol, not for the faint of heart.",
+    "image": "https://example.com/path-to-beer-image10.jpg",
+    "isStrong": true,
+    "type": "beer",
+    "id": 20
+  },
+  {
+    "name": "Spaghetti Carbonara",
+    "price": "12.99",
+    "description": "Classic Italian pasta with a creamy sauce and pancetta.",
+    "image": "https://example.com/path-to-pasta-image1.jpg",
+    "type": "pasta",
+    "id": 21
+  },
+  {
+    "name": "Penne Arrabbiata",
+    "price": "11.49",
+    "description": "Penne pasta with a spicy tomato sauce.",
+    "image": "https://example.com/path-to-pasta-image2.jpg",
+    "type": "pasta",
+    "id": 22
+  },
+  {
+    "name": "Fettuccine Alfredo",
+    "price": "13.99",
+    "description": "Fettuccine noodles with a rich and creamy Alfredo sauce.",
+    "image": "https://example.com/path-to-pasta-image3.jpg",
+    "type": "pasta",
+    "id": 23
+  },
+  {
+    "name": "Lasagna Bolognese",
+    "price": "14.99",
+    "description": "Layers of pasta with a savory meat sauce and cheese.",
+    "image": "https://example.com/path-to-pasta-image4.jpg",
+    "type": "pasta",
+    "id": 24
+  },
+  {
+    "name": "Ravioli",
+    "price": "12.49",
+    "description": "Stuffed pasta pockets with a choice of cheese or meat filling.",
+    "image": "https://example.com/path-to-pasta-image5.jpg",
+    "type": "pasta",
+    "id": 25
+  },
+  {
+    "name": "Spaghetti Bolognese",
+    "price": "13.99",
+    "description": "Classic spaghetti with a rich meat sauce.",
+    "image": "https://example.com/path-to-pasta-image6.jpg",
+    "type": "pasta",
+    "id": 26
+  }
+]
